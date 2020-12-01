@@ -103,6 +103,11 @@ DEVICE_PACKAGE_OVERLAYS += \
     vendor/aosp/overlay/common \
     vendor/aosp/overlay-pixel/common
 
+# Blur properties
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.sf.blurs_are_expensive=1 \
+    ro.surface_flinger.supports_background_blur=1
+
 # Cutout control overlay
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
