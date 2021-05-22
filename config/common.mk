@@ -133,6 +133,10 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 PRODUCT_PACKAGES += \
     QuickAccessWallet
 
+# Extra packages
+PRODUCT_PACKAGES += \
+    StitchImage
+
 # Gboard configuration
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.ime.bs_theme=true \
