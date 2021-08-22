@@ -130,6 +130,7 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     NexusLauncherRelease
 
 # Themed bootanimation
+PRODUCT_SOONG_NAMESPACES += hardware/google/pixel
 TARGET_MISC_BLOCK_OFFSET ?= 0
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.misc.block.offset=$(TARGET_MISC_BLOCK_OFFSET)
