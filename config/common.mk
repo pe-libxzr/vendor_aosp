@@ -144,7 +144,8 @@ PRODUCT_PACKAGES += \
 
 # Extra packages
 PRODUCT_PACKAGES += \
-    StitchImage
+    StitchImage \
+    SingleTapToLock
 
 # Gboard configuration
 PRODUCT_PRODUCT_PROPERTIES += \
